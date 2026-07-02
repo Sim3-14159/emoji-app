@@ -53,7 +53,7 @@ status_label.pack(pady=10)
 # --- Loading label ---
 loading_text = StringVar()
 loading_text.set("Loading emojis...")
-loading_label = Label(root, textvariable=loading_text, font=('Times 12'), fg='green')
+loading_label = Label(root, textvariable=loading_text, font=('monospace'), fg='green')
 loading_label.pack(pady=5)
 
 # --- Scrollable area ---
@@ -122,7 +122,13 @@ def load_emojis():
             y += 1
 
         # Update loading progress
-        loading_text.set(f"Loading emojis... ({idx}/{num_files})█")
+        num_files_loaded = idx * 10 // num_files
+        num_files_left = 10 - num_files_loaded
+
+        loading_bar = "█" * num_files_loaded + " " * num_files_left
+        
+
+        loading_text.set(f"Loading emojis... {loading_bar}")
         root.update_idletasks()
 
     loading_text.set(f"Loaded {num_files} emojis!")
