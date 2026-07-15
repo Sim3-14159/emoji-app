@@ -1,4 +1,7 @@
-# 😄 Emoji App 🎨
+<h1><img src="ICON.png" height="50" style="vertical-align: bottom">&emsp;
+  $$\color{#ffcc55}\Huge\textbf{Emoji App}$$
+</h1>
+
 
 A **Python desktop app** to browse, copy, and generate emojis!  
 Quickly grab your favorite emojis, see their colon-style names, and even generate PNGs from a list.
@@ -41,7 +44,7 @@ Quickly grab your favorite emojis, see their colon-style names, and even generat
 | Name | Description |
 |--|--|
 |[`main.py`](main.py)|  Launches emoji app GUI. |      
-|[`make_emojis.py`](make_emojis.py)  Run this to configure `main.py` to use the emojis in `emojis.txt`. |  
+|[`make_emojis.py`](make_emojis.py) | Run this to configure `main.py` to use the emojis in `emojis.txt`. |  
 |[`emojis.txt`](emojis.txt)| Put any emojis you want in this file, then run `make_emojis.py` to configure the app to use them. |   
 |[`images/`](images)| When `make_emojis.py` is run, the output files are stored in here.    |
 |[`LICENSE`](LICENSE)| It's a license 🤓. What did you think it did? |
