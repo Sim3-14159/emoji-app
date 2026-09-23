@@ -2,6 +2,9 @@
   $$\color{#ffcc55}\Huge\textbf{Emoji App}$$
 </h1>
 
+> [!IMPORTANT]
+> **emoji-app** is no longer receiving updates, and it's been left off at a point where it kind of sucks :cry:, so it has been archived.
+
 
 A **Python desktop app** to browse, copy, and generate emojis!  
 Quickly grab your favorite emojis, see their colon-style names, and even generate PNGs from a list.
